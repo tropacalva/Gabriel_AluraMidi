@@ -10,6 +10,7 @@ let contador = 0;
     const tecla = listaDeTeclas(contador);
 
    const instrumento = listaDeTeclas[contador].classList[1];
+   //templete string
    
   
    const idAudio = '#som_${instrumento}'
