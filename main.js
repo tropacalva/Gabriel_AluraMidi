@@ -22,15 +22,18 @@ let contador = 0;
 
  contador = contador +1;
 
- //console.log(contador);
-  
- tecla.onkeydown = function () {
 
+  
+ tecla.onkeydown = function (evento) {
+
+ console.log(evento)
+
+    if('Espaço') {
     tecla.classList.add('ativa');
  } 
  tecla.onkeyup = function () {
     tecla.claasList.remove('ativa');
-    
+
  }
 
  }
