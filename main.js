@@ -28,6 +28,10 @@ let contador = 0;
 
     tecla.classList.add('ativa');
  } 
+ tecla.onkeyup = function () {
+    tecla.claasList.remove('ativa');
+    
+ }
 
  }
 
