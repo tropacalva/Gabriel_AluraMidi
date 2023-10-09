@@ -11,19 +11,16 @@ let contador = 0;
 
    const instrumento = listaDeTeclas[contador].classList[1];
    //templete string
-   
-  
    const idAudio = `#som_${instrumento}`
-  // console.log(idAudio);
+  //console.log(idAudio);
 
-    tecla.onclick = function() {
+    lista.onclick = function() {
 
     tocaSom(idAudio);
 
  }
 
  contador = contador +1;
-
 
  //console.log(contador);
   
