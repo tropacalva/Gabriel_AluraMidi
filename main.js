@@ -24,6 +24,11 @@ let contador = 0;
 
  //console.log(contador);
   
+ tecla.onkeydown = function () {
+
+    tecla.classList.add('ativa');
+ } 
+
  }
 
 
