@@ -13,18 +13,19 @@ let contador = 0;
    //templete string
    
   
-   const idAudio = '#som_${instrumento}'
-   console.log(idAudio);
-    tecla[contador].onclick = function() {
+   const idAudio = `#som_${instrumento}`
+  // console.log(idAudio);
 
-    tocaSom('#som_tecla_pom');
+    tecla.onclick = function() {
+
+    tocaSom(idAudio);
 
  }
 
  contador = contador +1;
 
 
- console.log(contador);
+ //console.log(contador);
   
  }
 
